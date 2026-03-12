@@ -1,0 +1,9 @@
+[build]
+  command = "npm run generate"
+  publish = "dist"
+
+# SPA fallback — todas las rutas apuntan al index.html
+[[redirects]]
+  from = "/*"
+  to   = "/index.html"
+  status = 200
