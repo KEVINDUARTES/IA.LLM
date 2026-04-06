@@ -207,7 +207,7 @@ const matchSummary = computed(() => {
           </div>
           <div>
             <h1 class="text-base font-bold text-gray-900 leading-none">CV Scoring System</h1>
-            <p class="text-xs text-gray-400 mt-0.5">Evaluación automática de perfiles · Talently</p>
+            <p class="text-xs text-gray-400 mt-0.5">Evaluación automática de perfiles</p>
           </div>
         </div>
         <UButton v-if="currentStep > 1" variant="ghost" size="xs" icon="i-heroicons-arrow-path" @click="resetAll">
@@ -579,7 +579,7 @@ const matchSummary = computed(() => {
     <!-- ── Footer ───────────────────────────────────────────────────── -->
     <footer class="mt-12 py-6 border-t border-gray-200 text-center">
       <p class="text-xs text-gray-400">
-        CV Scoring System · Challenge Técnico Talently · Backend Laravel 10 + Groq AI
+        CV Scoring System · Backend Laravel 10 + Groq AI
       </p>
     </footer>
 

@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'CV Scoring System · Talently',
+      title: 'CV Scoring System',
       htmlAttrs: { lang: 'es' },
       meta: [
         { charset: 'utf-8' },

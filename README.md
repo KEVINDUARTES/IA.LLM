@@ -373,7 +373,7 @@ php artisan queue:work --tries=3 --timeout=120
 
 ## Ejemplo Real de Ejecución
 
-Este es el resultado de ejecutar el sistema usando **mi propio CV** evaluado contra la oferta de **Talently Backend Engineer**.
+
 
 ### Paso 1 — Crear la oferta laboral
 
@@ -385,7 +385,7 @@ curl -X POST http://localhost:8000/api/v1/jobs \
 
 **Response:**
 ```json
-{ "data": { "id": 1, "title": "Fullstack Developer (Laravel / Vue.js / AI) - Talently", "criteria_status": "pending" } }
+{ "data": { "id": 1, "title": "Fullstack Developer (Laravel / Vue.js / AI", "criteria_status": "pending" } }
 ```
 
 Luego de que el worker procesa `GenerateCriteriaJob`, los criterios generados son:
@@ -591,4 +591,3 @@ app/
     ├── CVService.php                   # Lógica de deduplicación
     └── ScoreOrchestrationService.php
 ```
-"# Challenge-Talently" 

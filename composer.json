@@ -1,6 +1,6 @@
 {
-    "name": "talently/cv-scoring-system",
-    "description": "Automated CV scoring backend service for Talently challenge",
+    "name": "cv-scoring-system",
+    "description": "Automated CV scoring backend service",
     "keywords": ["laravel", "cv-scoring", "llm", "backend"],
     "license": "MIT",
     "require": {
